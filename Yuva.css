@@ -1,0 +1,123 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+  }
+  
+  header {
+    background-color: #007bff;
+    color: white;
+    padding: 20px 0;
+  }
+  
+  .container {
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .logo h1 {
+    font-size: 1.8em;
+  }
+  
+  .logo p {
+    font-size: 0.9em;
+  }
+  
+  nav ul {
+    display: flex;
+    list-style: none;
+  }
+  
+  nav ul li {
+    margin-left: 20px;
+  }
+  
+  nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 1em;
+  }
+  
+  .actions a {
+    background-color: #28a745;
+    color: white;
+    padding: 10px 15px;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-left: 10px;
+  }
+  
+  .actions a.login {
+    background-color: transparent;
+    border: 1px solid white;
+  }
+  
+  .hero {
+    background-color: #1c74db;
+    color: white;
+    padding: 150px 0;
+    text-align: center;
+  }
+  
+  .hero h1 {
+    font-size: 3em;
+  }
+  
+  .hero h2 {
+    font-size: 1.5em;
+  }
+  
+  .hero p {
+    margin: 20px 0;
+  }
+  
+  .cta-btn {
+    background-color: #28a745;
+    color: white;
+    padding: 15px 30px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 1.2em;
+  }
+  
+  .job-search {
+    background-color: #f4f4f4;
+    padding: 30px 0;
+  }
+  
+  .job-search form {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+  }
+  
+  .job-search input {
+    padding: 10px;
+    width: 30%;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+  }
+  
+  .job-search button {
+    padding: 10px 20px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  .job-img{
+    max-width:30%;
+    height:auto;
+    margin-bottom:50px;
+  }
+  
+ 
